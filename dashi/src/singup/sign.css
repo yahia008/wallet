@@ -1,0 +1,91 @@
+.contain{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.box-box
+{
+    background-color: white;
+    width: 600px;
+    border-radius: 3px;
+    margin-top: 50px;
+    padding: 1rem;
+    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    color: blueviolet;
+}
+.btn
+{
+   background-color: white;
+   border: none;
+   width: 100%;
+   color: blueviolet;
+   font-weight: bold;
+   font-size: 1.5rem;
+   cursor: pointer;
+   
+}
+.btn:hover{
+    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.btn-box
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+.header button{
+    
+    color: green;
+    width: 100px;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+    padding: .5rem;
+    border: none;
+
+}
+label{
+    padding: 1rem;
+}
+
+@media (max-width:390px) {
+    .header{
+        
+        font-size: .85rem;
+    }
+
+    .header button{
+        width: 50px;
+        font-size: small;
+    }
+
+    label{
+        font-size: small;
+    } 
+
+    .btn{
+        font-size: small;
+    }
+}
+.input-error{
+    border-color: red;
+}
+
+.p-error{
+  font-size: .7rem;
+  color: red;
+}

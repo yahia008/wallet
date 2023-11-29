@@ -51,7 +51,8 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .5rem;
+    padding-top: .5rem;
+    
   }
 
 
@@ -62,5 +63,9 @@ input{
 
     input{
         width: 100%;
+        padding: 7px;
+    }
+    .main{
+        margin-top: 100px;
     }
   }

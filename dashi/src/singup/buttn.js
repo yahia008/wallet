@@ -4,7 +4,8 @@ const Btn = () => {
   return (
     <div className='btn-box'>
        <div>
-      <button type='submit' className='btn'>Login</button>
+      <button type='submit'  className='btn-btn'> 
+      Submit</button>
       </div>
      
     </div>

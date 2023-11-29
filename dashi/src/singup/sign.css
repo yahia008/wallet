@@ -25,7 +25,7 @@
 .header h2{
     color: blueviolet;
 }
-.btn
+.btn-btn
 {
    background-color: white;
    border: none;
@@ -36,7 +36,7 @@
    cursor: pointer;
    
 }
-.btn:hover{
+.btn-btn:hover{
     box-shadow:10px 5px 5px rgba(0, 0, 0, 0.2);
     
 }
@@ -77,8 +77,8 @@ label{
         font-size: small;
     } 
 
-    .btn{
-        font-size: small;
+    .btn-btn{
+        font-size: 1rem;
     }
 }
 .input-error{

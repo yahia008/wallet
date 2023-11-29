@@ -6,9 +6,10 @@ import Btn from './buttn'
 
 const Input = () => {
 
-    const onSubmit = () => {
-        console.log('submitted')
-
+    const onSubmit = ( e, values,{setSubmitting}) => {
+      e.preventDefault()
+        console.log("submitted")
+        setSubmitting(false)
     }
 
     const {
@@ -76,10 +77,11 @@ const Input = () => {
         onBlur={handleBlur}
         className={errors.confirmPassword && touched.confirmPassword? "input-error": ""}
 />
-        {errors.confirmPassword && touched.confirmPassword? <p className='p-error'>{errors.confirmPassword}</p>:<></>}
+        {errors.confirmPassword && touched.confirmPassword? 
+        <p className='p-error'>{errors.confirmPassword}</p>:<></>}
       </div>
 
-      <Btn onSubmit={onSubmit}/>
+      <Btn />
       </form>
     </div>
   )

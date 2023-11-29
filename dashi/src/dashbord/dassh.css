@@ -1,0 +1,49 @@
+.maini{
+    background-color: black;;
+    height: 100vh;
+    margin: 0;
+    
+    display:flex;
+}
+
+.side
+{
+    background-color: #222220;
+    color: white;
+    width: 100px;
+    margin: 0;
+    border-radius: 2px;
+    
+}
+
+.header
+{
+padding-left: 20px;
+color: greenyellow;
+font-weight: bold;
+margin: 30px 0;
+font-size: larger;
+}
+
+.icons
+{
+    font-size: 2.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+
+}
+
+.icons:hover{
+    background-color:white;
+    color: white;
+    border-radius: 5px;
+}
+
+@media (max-width:390px) {
+    .side{
+        display: none;
+    }
+}

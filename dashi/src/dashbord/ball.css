@@ -1,0 +1,49 @@
+.account
+{
+    
+    width: 100%;
+    margin-left: 10px;
+    
+}
+
+.head-box
+{
+    padding: 0px;
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.dash-head
+{
+    margin: 0px;
+    
+}
+
+.avatar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    
+    
+    
+}
+
+.avatar h3
+{
+    margin-left: 10px;
+}
+
+@media (max-width:390px) {
+
+    .head-box{
+        font-size: .5rem;
+        margin: 15px;
+    }
+    
+    
+}
